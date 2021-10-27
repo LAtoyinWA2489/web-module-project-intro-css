@@ -49,10 +49,6 @@ section {
 	padding: 4% 0;
 }
 
-header {
-	display: block;
-}
-
 nav {
 	padding: 2% 0;
 }
@@ -66,29 +62,10 @@ nav a {
 	color: #fff;
 }
 
-.top {
-	display:inline-block;
+footer {
+	background-color: #F9E7DC;
 }
 
-.left img {
-	width: 25%;
-	border-radius: 100px;
-	margin: 5%;
-	
-}
-
-.right h1 {
-	display: inline-block;
-	width: 25%;
-}
-
-.right h2 {
-	display: inline-block;
-}
-
-.right p {
-	display: inline-block;
-}
 .orange {
 	background-color:#ff764e;
 	margin-left: 10%;
@@ -102,4 +79,38 @@ nav a {
 .yellow {
 	background-color:#ffcd69;
 	margin-right: 10%;
+}
+
+.top {
+	position: relative;
+}
+
+.left, .right {
+	display: inline-block;
+	text-align: center;
+}
+
+.left {
+	width: 30%;
+}
+
+.right {
+	width: 50%;
+	margin-left: 5%;
+	position: absolute;
+	top: 40%;
+
+}
+
+.left img {
+	border-radius: 50%;
+	width: 80%;
+}
+
+.main {
+	background-color:#DDB9A3;
+	padding: 1% 5%;
+	margin: 0 1%;
+	color: #fff;
+	text-align: center;
 }
